@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.covid_tracker.app-mergeDebugResources-9:/values-lv/values-lv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\suraj\\.gradle\\caches\\transforms-3\\8297e10587bc1c819160dee755371622\\transformed\\core-1.6.0\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
