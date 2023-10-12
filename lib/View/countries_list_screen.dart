@@ -44,7 +44,9 @@ class _CountriesListScreenState extends State<CountriesListScreen> {
                           child: const Icon(Icons.clear)),
                 ),
                 onChanged: (value) {
-                  setState(() {});
+                  setState(() {
+                    // value;
+                  });
                 },
               ),
             ),
@@ -143,7 +145,7 @@ class _CountriesListScreenState extends State<CountriesListScreen> {
                               );
                             } else if (name.toLowerCase().contains(
                                 searchController.text.toLowerCase())) {
-                              return Column(
+                              Column(
                                 children: [
                                   ListTile(
                                     leading: Image(
@@ -157,13 +159,13 @@ class _CountriesListScreenState extends State<CountriesListScreen> {
                                     subtitle: Text("Effected: " +
                                         snapshot.data![index]['cases']
                                             .toString()),
-                                  ),
-                                  const Divider()
+                                  )
                                 ],
                               );
                             } else {
                               return Container();
                             }
+                            return null;
                           });
                     }
                   }),
